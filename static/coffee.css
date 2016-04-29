@@ -11,3 +11,9 @@ body {
 h4{
     text-align: left;
 }
+
+.special-border {
+	border-color: red;
+	border-radius: 80px;
+	border-style: solid;
+}

@@ -55,6 +55,13 @@ function makeCoffee() {
 
 $('#coffee_image').click(makeCoffee);
 
+function mouseoverCoffee (myImage){
+    $("img#coffee_image").toggleClass("special-border");
+
+}
+
+$("img#coffee_image").mouseover(mouseoverCoffee);
+
 </script>
 
 </body>
